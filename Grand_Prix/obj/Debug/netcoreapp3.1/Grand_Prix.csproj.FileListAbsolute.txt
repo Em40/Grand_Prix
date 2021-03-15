@@ -1,0 +1,13 @@
+C:\Users\Emilian\source\repos\Grand_Prix\bin\Debug\netcoreapp3.1\Grand_Prix.exe
+C:\Users\Emilian\source\repos\Grand_Prix\bin\Debug\netcoreapp3.1\Grand_Prix.deps.json
+C:\Users\Emilian\source\repos\Grand_Prix\bin\Debug\netcoreapp3.1\Grand_Prix.runtimeconfig.json
+C:\Users\Emilian\source\repos\Grand_Prix\bin\Debug\netcoreapp3.1\Grand_Prix.runtimeconfig.dev.json
+C:\Users\Emilian\source\repos\Grand_Prix\bin\Debug\netcoreapp3.1\Grand_Prix.dll
+C:\Users\Emilian\source\repos\Grand_Prix\bin\Debug\netcoreapp3.1\Grand_Prix.pdb
+C:\Users\Emilian\source\repos\Grand_Prix\obj\Debug\netcoreapp3.1\Grand_Prix.csprojAssemblyReference.cache
+C:\Users\Emilian\source\repos\Grand_Prix\obj\Debug\netcoreapp3.1\Grand_Prix.AssemblyInfoInputs.cache
+C:\Users\Emilian\source\repos\Grand_Prix\obj\Debug\netcoreapp3.1\Grand_Prix.AssemblyInfo.cs
+C:\Users\Emilian\source\repos\Grand_Prix\obj\Debug\netcoreapp3.1\Grand_Prix.csproj.CoreCompileInputs.cache
+C:\Users\Emilian\source\repos\Grand_Prix\obj\Debug\netcoreapp3.1\Grand_Prix.dll
+C:\Users\Emilian\source\repos\Grand_Prix\obj\Debug\netcoreapp3.1\Grand_Prix.pdb
+C:\Users\Emilian\source\repos\Grand_Prix\obj\Debug\netcoreapp3.1\Grand_Prix.genruntimeconfig.cache

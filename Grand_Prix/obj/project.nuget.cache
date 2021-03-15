@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "HXKhtlwVXIu6ww5ZgSDX80Fo/jC05rPnTYp7Ta4hSWhSJdhRY75pqcAEp1sF60RC9/Eh+EqQIg0iM/EqmEWo7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Emilian\\source\\repos\\Grand_Prix\\Grand_Prix.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Emilian\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.12\\microsoft.netcore.app.host.win-x86.3.1.12.nupkg.sha512",
+    "C:\\Users\\Emilian\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Emilian\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Emilian\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
