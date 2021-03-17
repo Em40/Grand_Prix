@@ -16,19 +16,19 @@
            
         }
 
-        //public override double Speed => base.Speed * 1.3;
+        public override double Speed => base.Speed * 1.3;
 
-        public override double Speed
-        {
-            get
-            {
-                return base.Speed;
-            }
-            set
-            {
-                base.Speed *= 1.3;
-            }
-        }
+        //public override double Speed
+        //{
+        //    get
+        //    {
+        //        return base.Speed;
+        //    }
+        //    set
+        //    {
+        //        base.Speed *= 1.3;
+        //    }
+        //}
 
     }
 }

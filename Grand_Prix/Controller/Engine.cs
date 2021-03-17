@@ -48,6 +48,13 @@
                     default:
                         break;
                 }
+
+                if (raceTower.hasWinner)
+                {
+                    Console.WriteLine($"{raceTower.winner.Name} wins the race for {raceTower.winner.TotalTime:F3} seconds.");
+                    return;
+                }
+                input = Console.ReadLine();
             }
         }
     }

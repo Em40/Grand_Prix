@@ -25,17 +25,20 @@
 
         public double FuelConsumptionPerKm { get; set; }
 
-        public virtual double Speed 
-        {
-            get
-            {
-                return this.speed;
-            }
-            set
-            {
-                value = (this.Car.Hp + this.Car.Tyre.Degradation) / this.Car.FuelAmount;
-            }
-        }
+        //public virtual double Speed 
+        //{
+        //    get
+        //    {
+        //        return this.speed;
+        //    }
+        //    set
+        //    {
+        //        value = (this.Car.Hp + this.Car.Tyre.Degradation) / this.Car.FuelAmount;
+        //    }
+        //}
+
+        public virtual double Speed => (this.Car.Hp + this.Car.Tyre.Degradation) / this.Car.FuelAmount;
+
         public void ReduceFuelAmount(int lenght)
         {
             this.Car.ReduceFuel(lenght, this.FuelConsumptionPerKm);

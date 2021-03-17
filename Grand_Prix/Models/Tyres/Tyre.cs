@@ -6,6 +6,8 @@
 
     public abstract class Tyre
     {
+        private const string TYRE_EXCEPTION = "Blown tyre";
+
         private string name;
         private double hardness;
         private double degradation;
@@ -51,7 +53,7 @@
             {
                 if (value < 0)
                 {
-                    throw new ArgumentException("Blown tyre");
+                    throw new ArgumentException(TYRE_EXCEPTION);
                 }
                 this.degradation = value;
             }

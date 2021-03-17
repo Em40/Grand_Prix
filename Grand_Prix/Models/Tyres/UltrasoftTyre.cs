@@ -6,11 +6,14 @@
 
     public class UltrasoftTyre : Tyre
     {
+        private const string TYRE_EXCEPTION = "Blown tyre";
+        private const double ULTRASOFT_TYRE_MIN_DEGRADATION = 30;
+
         private double grip;
         private double degradation;
 
         public UltrasoftTyre(double hardness, double grip)
-            :base("Ultrasoft", hardness)
+            : base("Ultrasoft", hardness)
         {
             this.Grip = grip;
         }
@@ -23,22 +26,22 @@
             }
             set
             {
-                if (value<30)
+                if (value < ULTRASOFT_TYRE_MIN_DEGRADATION)
                 {
-                    throw new ArgumentException("Blown tyre");
+                    throw new ArgumentException(TYRE_EXCEPTION);
                 }
                 this.degradation = value;
             }
         }
 
-        public double Grip 
+        public double Grip
         {
-            get 
-            { 
-                return this.grip; 
+            get
+            {
+                return this.grip;
             }
-            set 
-            { 
+            set
+            {
                 this.grip = value;
             }
         }
